@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Saxis robot</title>
+    <script src="js/three.min.js"></script>
+    <script src="js/saxis.js"></script>
+    <style>
+      .onleft { float: left; width: 15%; height: 100%; padding: 0px; }
+      .view { float: left; width: 70%; height: 100%; border: 0px; }
+      .onright { float: left; width: 15%; height: 100%; padding: 0px; }
+      .row:after {
+	  content: "";
+	  display: table;
+	  clear: both;
+      }
+      .degrees { margin: .1rem 0; width: 80%; }
+    </style>
+  </head>
+  <body onload="saxis_init('mainView')">
+    <div class="row">
+      <div id="leftpane" class="onleft" style="background-color:#aaa;">
+	Running program: <span id="progNo"></span><br>
+	<button id="airing" style="background-color:#ccc">OFF AIR</button><br>
+      </div>
+      <canvas class="view" id="mainView"></canvas>
+      <div id="rightpane" class="onright" style="background-color:#aaa;">
+	<table align="center" width="100%" border="1">
+	  <tr>
+	    <th align="center">Joint</th>
+	    <th align="center">Degrees</th>
+	  </tr>
+	  <tr>
+	    <td align="center">J0</td>
+	    <td align="center"><tt><input class="degrees" id="J0ang" type="number" step="0.01"></input></tt></td>
+	  </tr>
+	  <tr>
+	    <td align="center">J1</td>
+	    <td align="center"><tt><input class="degrees" id="J1ang" type="number" step="0.01"></input></tt></td>
+	  </tr>
+	  <tr>
+	    <td align="center">J2</td>
+	    <td align="center"><tt><input class="degrees" id="J2ang" type="number" step="0.01"></input></tt></td>
+	  </tr>
+	  <tr>
+	    <td align="center">J3</td>
+	    <td align="center"><tt><input class="degrees" id="J3ang" type="number" step="0.01"></input></tt></td>
+	  </tr>
+	  <tr>
+	    <td align="center">J4</td>
+	    <td align="center"><tt><input class="degrees" id="J4ang" type="number" step="0.01"></input></tt></td>
+	  </tr>
+	  <tr>
+	    <td align="center">J5</td>
+	    <td align="center"><tt><input class="degrees" id="J5ang" type="number" step="0.01"></input></tt></td>
+	  </tr>
+	</table>
+      </div>
+    </div>
+  </body>
+</html>
