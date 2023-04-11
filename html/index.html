@@ -2,8 +2,6 @@
 <html>
   <head>
     <title>Saxis robot</title>
-    <script src="js/three.min.js"></script>
-    <script src="js/saxis.js"></script>
     <style>
       .onleft { float: left; width: 15%; height: 100%; padding: 0px; }
       .view { float: left; width: 70%; height: 100%; border: 0px; }
@@ -16,7 +14,7 @@
       .degrees { margin: .1rem 0; width: 80%; }
     </style>
   </head>
-  <body onload="saxis_init('mainView')">
+  <body>
     <div class="row">
       <div id="leftpane" class="onleft" style="background-color:#aaa;">
 	Running program: <span id="progNo"></span><br>
@@ -56,5 +54,6 @@
 	</table>
       </div>
     </div>
+    <script type="module" src="js/saxis.js"></script>
   </body>
 </html>

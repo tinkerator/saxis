@@ -1,4 +1,5 @@
 // saxis.js is all of the logic for the saxis robot rendering.
+import * as THREE from './three.module.min.js';
 
 const margin = 15;
 
@@ -323,7 +324,7 @@ function saxis_init(view) {
 
   onWindowResize();
 
-  pointLight = new THREE.DirectionalLight(0xffffff, 1);
+  var pointLight = new THREE.DirectionalLight(0xffffff, 1);
   pointLight.position.x = 0;
   pointLight.position.y = 0;
   pointLight.position.z = -2;
@@ -361,3 +362,5 @@ function saveRecording() {
     window.URL.revokeObjectURL(u);
   }, 100);
 }
+
+saxis_init('mainView');

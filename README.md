@@ -11,7 +11,7 @@ To run the program you should do:
 ```
 $ git clone https://github.com/tinkerator/saxis
 $ cd saxis/html/js
-$ wget https://raw.githubusercontent.com/mrdoob/three.js/dev/build/three.min.js
+$ wget https://raw.githubusercontent.com/mrdoob/three.js/dev/build/three.module.min.js
 $ cd ../..
 $ go mod tidy
 $ go build
@@ -52,12 +52,6 @@ robot motion patterns as follows:
   VIDEO" button. If you click this labeled button, a `sample.webm`
   video file is saved where your browser saves files (and not the
   working directory of the `saxis` program).
-
-## Notes
-
-We'll have to adopt a different way of installing the `three.min.js`
-file soon (patches via the bug tracker, or pull request welcome):
-https://threejs.org/docs/index.html#manual/en/introduction/Installation
 
 ## License info
 
