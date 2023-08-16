@@ -63,6 +63,6 @@ its image in a browser and that has its own MIT license.
 ## Reporting bugs and feature requests
 
 The `saxis` program was developed purely out of self-interest to try
-to undersstand how robots like this work. Should you find a bug or
-want to suggest a feature addition, please use the [bug
+to understand how robots like this work. Should you find a bug or want
+to suggest a feature addition, please use the [bug
 tracker](https://github.com/tinkerator/saxis/issues).
