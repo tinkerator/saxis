@@ -1,7 +1,6 @@
-zappem.net/pub/kinematics/sixaxis v1.0.1 h1:RBn6OZhIEng8qOW4EnUIqvP8NLn4YBPAE51HY2hkvLE=
-zappem.net/pub/kinematics/sixaxis v1.0.1/go.mod h1:5SsBffkRBwio3+Dh6YpsWNFrF8odvJHdzjvEs90zvJk=
-zappem.net/pub/math/geom v0.5.0/go.mod h1:J278I+LwpHrPJsQVEGq8AEi6wdAVMrK7VUsvQ+vbGKM=
-zappem.net/pub/math/geom v0.5.2 h1:bScaZAMh72cP/BInZKVRnFUetVNomaZwO35YOtqiqSE=
-zappem.net/pub/math/geom v0.5.2/go.mod h1:J278I+LwpHrPJsQVEGq8AEi6wdAVMrK7VUsvQ+vbGKM=
+zappem.net/pub/kinematics/sixaxis v1.0.5 h1:jR9XyaVpETvUyB888IDBJvQKe/WeTblf6EoFzaKoCLM=
+zappem.net/pub/kinematics/sixaxis v1.0.5/go.mod h1:PIvVVoUBvA3byaB+5NC3UrcuI4WNwR1G9glaspKvzO8=
+zappem.net/pub/math/geom v0.6.1 h1:1sRrUtBy3MOLllcmgozF3qDRo786KjPjbAo0CBvNKGI=
+zappem.net/pub/math/geom v0.6.1/go.mod h1:J278I+LwpHrPJsQVEGq8AEi6wdAVMrK7VUsvQ+vbGKM=
 zappem.net/pub/math/hilbert v1.0.0 h1:fO1vFxeHeu+FRvvCkC6jNhNhpMS1ZrtmjLfy3afRloE=
 zappem.net/pub/math/hilbert v1.0.0/go.mod h1:hU19mplzhZ+lX23bknHS++9yTjdStD2SzamOe3jxeB4=
