@@ -10,13 +10,16 @@ kinematics package. The arm renders via a web page using the
 To run the program you should do:
 ```
 $ git clone https://github.com/tinkerator/saxis
-$ cd saxis/html/js
-$ wget https://raw.githubusercontent.com/mrdoob/three.js/dev/build/three.module.min.js
-$ cd ../..
+$ cd saxis
+$ git submodule init
 $ go mod tidy
 $ go build
 $ ./saxis
 ```
+
+**NOTE** The `git submodule init` part is to cache a local copy of the
+	 `three.js` sources that are needed to get the 3D rendering of the
+	 robot to work.
 
 Then you point your web browser at http://localhost:8080 and watch the
 saxis robot dance a Hilbert curve with the various modes of movement
@@ -52,6 +55,17 @@ robot motion patterns as follows:
   VIDEO" button. If you click this labeled button, a `sample.webm`
   video file is saved where your browser saves files (and not the
   working directory of the `saxis` program).
+
+## Notes for submodules
+
+This was the setup for the [threejs](https://github.com/mrdoob/three.js) code:
+
+```
+$ git submodule add https://github.com/mrdoob/three.js.git
+```
+
+The various *...min.js* files from this submodule are symbolically
+linked from `./html/js/` locations.
 
 ## License info
 
