@@ -12,12 +12,13 @@ To run the program you should do:
 $ git clone https://github.com/tinkerator/saxis
 $ cd saxis
 $ git submodule init
+$ git submodule update
 $ go mod tidy
 $ go build
 $ ./saxis
 ```
 
-**NOTE** The `git submodule init` part is to cache a local copy of the
+**NOTE** The `git submodule ...` parts are to cache a local copy of the
 	 `three.js` sources that are needed to get the 3D rendering of the
 	 robot to work.
 
